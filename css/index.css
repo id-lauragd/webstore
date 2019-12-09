@@ -43,13 +43,7 @@
     margin: 0 auto;
   }
   
-  .nav{
-  
-    position: absolute;
-    top: 0;
-    left: 800px;
-    right: 100px;
-  }
+
   
   
   .nav2{
@@ -65,15 +59,8 @@
   }
   
   
-  .navigation{
-    padding-left: 800px;
-    position: relative;
   
-  }
-  
-  .navigation li{
-    display: inline-block;
-  }
+ 
   
   a{
     padding: 0px 10px 0px 10px;
@@ -86,29 +73,14 @@
   
   }
   
-  .navigation img{
-  float: left;
   
-  }
-  
-  .product, .nav, .nav2{
+  .product {
     display: inline-block;
   }
-  
-  .box{
-    display: grid;
-    grid-template-columns: 15% 70% 15%;
-    grid-column-gap: 10px;
-    padding: 10px 10px;
-  }
-  
-  .cream{
-    width: 70%;
-    display: inline-block;
-    text-align: center;
-    margin: auto;
-    position: relative;
-    top: 100px;
+
+  .product ul li{
+
+
   }
   
   .productImg{
@@ -124,7 +96,7 @@
     padding: 170px 150px 170px 0px;;
   }
   
-  .productTitle{
+  h2{
     font-size: 30px;
     color: #6B6252;
     padding-left: 200px;
@@ -137,38 +109,7 @@
     padding-left: 200px;
   }
   
-  .product2{
-    width: 20%;
-    display: inline-block;
-    text-align: center;
-    margin: auto;
-    padding: 50px 0px 50px 400px;
-    top: 100px;
-  }
-  
-  .productd2 {
-    width: 20%;
-    display: inline-block;
-    text-align: left;
-    margin: auto;
-    padding: 170px 200px 170px 200px;
-    position: absolute;
-  
-  
-  }
-  
-  .productTitle2{
-    font-size: 45px;
-    color: #6B6252;
-  
-  }
-  
-  
-  .ProductP2{
-    font-size: 25px;
-    color: #6B6252;
-  
-  }
+
   
   .Over{
     font-size: 15px;
@@ -177,48 +118,13 @@
   }
   
   
-  .lcolumn{
-    background-color: #6B6252;
-    width: 100%;
-    color: #F2EED0;
-    font-family: 'Open Sans', sans-serif;
-    display: inline-block;
-  }
-  
-  .lcolumn h2{
-    font-size: 1em;
-    padding: 10px 50px;
-  }
-  
-  .lcolumn h3{
-    font-size: 1em;
-    padding: 10px 70px;
-  }
-  
-  .lcolumn h4{
-    font-size: 1em;
-    padding: 10px 90px;
-  
-  }
-  
-  .rcolumn{
-    background-color: #F2EED0;
-    width: 80%;
-    height: 400px;
-    padding: 10px 90px;
-    color: #6B6252;
-    font-family: 'Open Sans', sans-serif;
-    float: right;
-    position: relative;
-    top: 200px;
-  }
   
   .media2{
     float: right;
   
   }
   
-  
+  /*MY FOOTER */
   .foot{
     height: 200px;
     width: 100%;

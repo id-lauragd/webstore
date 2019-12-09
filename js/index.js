@@ -35,13 +35,16 @@ const natureProduct =[
 
 funtion getnatureProductsAsHtmlString(products); {
 
-    return `<article class="product">
-                <div class="product">
-                <img class="productImg" src="img/lavander.png" >
-                <h2 class="productTitle">Lavander</h2>
-                <p class="ProductP">$20</p>
-                </div>
-            </article>`;
+    return `<section id="product" class="product">
+        <img class="productImg" src="img/lavander.png" >
+        <h2 id="name">Lavander</h2>
+        <ul>
+        <li id="quantity">number of products</li>
+        <li id="description">This is hand soap.</li>
+        <li id="price">$20</li>
+        </ul>
+   
+        </section>`;
 
     
 
@@ -52,5 +55,5 @@ funtion rendernatureProduct(arrToRender) {
 
 const arrOfHtmlnatureProduct = arrToRender.map(getnatureProductsAsHtmlString);
 const arrOfHtmlnatureProduct = arrOfHtmlnatureProduct.join(`/n`);
-document.getElementById(`natureProduct`).innerHTML = strOfHtmlString);
+document.getElementById(`natureProduct`).innerHTML = strOfHtmlString;
 }
