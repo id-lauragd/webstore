@@ -51,7 +51,7 @@ funtion getnatureProductsAsHtmlString(products); {
 }
 
 
-funtion rendernatureProduct(arrToRender) {
+funtion rendernatureProduct(arrToRender); {
 
 const arrOfHtmlnatureProduct = arrToRender.map(getnatureProductsAsHtmlString);
 const arrOfHtmlnatureProduct = arrOfHtmlnatureProduct.join(`/n`);
