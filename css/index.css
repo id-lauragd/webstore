@@ -1,177 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap'); 
+
+
+html { 
+
+/* -----Custom properties----*/ 
+
+--color1: var(--background);
+--color2: #6B6252; 
+--color3: #B6C4BC; 
+--color4: #F2EED0; 
+--color5: rgba(255,255,255);
+
+ 
+/*Fonts*/ 
+    --font1: 'Open Sans';
+    --font2: 'Roboto';  
+} 
+
+
+body{ 
+  background-color: var(--color1);
+  font: 1em 'Roboto';
+
+}
+
+.banner {
+ height: 8em;
+ background-color: var(--background);
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+
+ 
+}
+
+.logo {
+  height: 8em;
+  margin-left: 4em;
+  padding: .5em;
+  grid-column: 1;
+}
+
+.natur {
+ height: 6em;
+ margin: 1em 2em;
+
+
+}
+
+.log {
+  height: 3em;
+  margin: 2em 17em;
+  grid-column: 3;
+}
 
 .topmedia {
-    height: 60px;
-    width: 100%;
-    background-color: #6B6252;
-  
-  }
-  
-  .media {
-    height:50%;
-    padding: 15px 20px 0px 0px;
-    float: right;
-  }
-  
-  .banner{
-    position: relative;
-    height: 200px;
-    width: 100%;
-  }
-  
-  .logo{
-    height: 50%;
-    float: left;
-    padding: 20px 20px;
-    margin: 0 auto;
-  }
-  
-  .natur{
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 60%;
-    width: auto;
-    padding: 20px 20px;
-    margin: 0 auto;
-  }
-  
-  .log{
-    height: 30%;
-    float: right;
-    padding: 20px 20px;
-    margin: 0 auto;
-  }
-  
+  background-color: var(--color2);
+  height: 4em;
+  padding: 1em;
+  text-align: center;
+  color: var(--color4);
+}
 
+nav ul li {
+  font-size: 1.5em;
+  display: inline;
+  margin-left: 5em;
+  list-style: none;
   
+}
+
+.top {
+  position: relative;
+  margin: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+.product { 
+ position: relative;
+ margin: 1em;
+ text-align: center;
+ color: var(--color2)
+
+}
+
+
+.essence {
+  font-size: 2em;
+ 
+}
+
+.description {
+  font-size: 1em;
+
+}
+
+
+.stock {
+  font-size: 1em;
+
+}
   
-  .nav2{
-    text-align: right;
-    width: auto;
-    padding-left: 800px;
-    position: absolute;
-    top: 10px;
-    left: 0;
-    right: 350px;
+.price {
+  font-size: 1.5em;
+
+}
+
+.foot {
+  background-color: var(--color2);
+  height: em;
+  padding: .5em;
+  text-align: center;
+
+}
+
+
+.about {
+  float: left;
+  margin-left: 1em;
+  margin-top: 1em;
+  font-size: 1.5empx;
+  padding-left: 12em;
+  color: var(--color4);
   
+}
+
+.logo2 {
+  float:center;
+  padding-left: 20em;
+
+}
+.subscribe{
+  float: right;
+  margin-top: 2em;
+  margin-right: 1em;
+  padding: 1em;
+  width: 35%;
+  font-size: 1em;
+  color: var(--color4);
+ 
+}
+
+
+.media2{
+  float: right;
+  margin-right: 1em;
+  padding: 1em;
   
-  }
-  
-  
+}
+
+
   
  
-  
-  a{
-    padding: 0px 10px 0px 10px;
-    height: 40px;
-    text-decoration: none;
-    color: #B6C4BC;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    float: left;
-  
-  }
-  
-  
-  .product {
-    display: inline-block;
-  }
-
-  
-  .productImg{
-    float: left;
-    height: 300px;
-  
-    padding: 10px 0px 10px 200px;
-  
-  }
-  
-  .productd{
-    float: right;
-    padding: 170px 150px 170px 0px;;
-  }
-  
-  h2{
-    font-size: 30px;
-    color: #6B6252;
-    padding-left: 200px;
-  
-  }
-  
-  .ProductP{
-    font-size: 20px;
-    color: #B6C4BC;
-    padding-left: 200px;
-  }
-  
-
-  
-  .Over{
-    font-size: 15px;
-    color: #B6C4BC;
-  
-  }
-  
-  
-  
-  .media2{
-    float: right;
-  
-  }
-  
-  /*MY FOOTER */
-  .foot{
-    height: 200px;
-    width: 100%;
-    background-color: #6B6252;
-  }
-  
-  .logo2{
-    height: 50%;
-    float: left;
-    padding: 40px 20px;
-  }
-  
-  .about{
-    float: left;
-    padding: 10px 40px 10px 300px ;
-    width: 35%;
-    font-size: 20px;
-    color: #F2EED0;
-  }
-  
-  .subscribe{
-    float: right;
-    padding: 50px 40px 10px 0px;
-    width: 35%;
-    font-size: 20px;
-    color: #F2EED0;
-  }
-  
-  
-  
-  .media2{
-    height:20%;
-    padding: 5px 20px 0px 0px;
-    float: right;
-  }
-  
-  
-  
-  
   
   @media screen and (max-width: 768px) {
   /*for mobile*/
   
-  .lcolumn{
   
-      width: 20%;
-  
-  
-  }
-  
-  }
+ 
+
   
   @media screen and (min-width: 1024px) {
   /*for tablet*/

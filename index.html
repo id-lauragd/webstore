@@ -3,67 +3,60 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Document title]</title>
+    <title>My Web</title>
     <meta name="description" content="[A short description]">
     <meta name="author" content="[Your Name]">
-    <link rel="stylesheet" href="css/reset.css"> <!-- You may change this "Reset" to "Normalize" if preferred -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css"> 
+    <link rel="stylesheet" href="css/index.css" >
   </head>
   <body>
-    <header>
-      <div class="topmedia">
-        <img class="media" src="img/media.png">
-        <a href="product.html">Body Care</a>
-        <a href="product.html">Home Fragance</a>
-        <a href="product.html">Gifts</a>
-        <a href="product.html">Sale</a>
-        <a href="product.html">About us</a>
-        <div class="nav2">
-            <a href="product.html">Search</a>
-        </div>
-      </div>
 
-      <div class="banner">
+    <header class= "top"> 
+      <section class="banner">
         <img class="logo" src="img/LogoL.png">
         <img class="natur" src="img/nature.png">
         <img class="log" src="img/login.png">
-      </div>
+      </section>
 
+      <nav class="topmedia">
+        <ul>
+            <li>Body Care</a></li>
+            <li>Home Fragance</a></li>
+            <li>Gifts</a></li>
+            <li>Sale</a></li>
+            <li>About us</a></li>     
+        </ul>
+      </nav>
+  
     </header>
 
     <main>
+     <section id="product" class="product">
+        <img class="productImg" src="img/lavander.png" >
+        <div class = "productInfo">
+            <h1 class = "essence">Lavander</h1>
+            <p class = "description">Hand Cream</p>
+            <p class = "stock">In stock: 7</p>
+            <p class = "price">$20</p>  
+        </div>  
+     </section>
 
-    
-        <section id="product" class="product">
-          <img class="productImg" src="img/lavander.png" >
-          <h2 id="name">Lavander</h2>
-          <ul>
-            <li id="quantity">number of products</li>
-            <li id="description">This is hand soap.</li>
-            <li id="price">$20</li>
-          </ul>
-         
-        </section>
-
-        
-
+      
     </main>  
 
-    <footer>
-     <div class="foot">
-      
-       <div class="about">
-         <h6>About Us</h6>
-         <h6>Contact</h6>
-         <h6>Terms & Conditions</h6>
-       </div>
-       <div class="subscribe">
-         <h5>Subscribe to our newsletter</h5>
-       </div>
-       <img class="media2" src="img/media.png">
-     </div>
-   </footer>
+    <footer class="foot">
+          <div>
+          <img class="logo2"src="img/Logolower.png">
+          <div class="about">
+            <h6>About Us</h6>
+            <h6>Contact</h6>
+            <h6>Terms & Conditions</h6>
+          </div>
+          <div class="subscribe">
+            <h5>Subscribe to our newsletter</h5>
+          </div>
+        </div>
+      </footer>
 
 
 
